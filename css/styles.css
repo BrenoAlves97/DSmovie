@@ -67,7 +67,7 @@ a, a:hover {
 }
 
 .dsmovie-card {
-    width: 360px;    
+    width: 100%;    
     
 }
 
@@ -84,6 +84,8 @@ a, a:hover {
     align-items: center;
     background-color: var(--white);
     border-radius: 0 0 8px 8px;
+    min-height: 150px;
+    justify-content: space-between;
 
 }
 
@@ -91,6 +93,7 @@ a, a:hover {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .dsmovie-btn, .dsmovie-btn:hover {
@@ -109,4 +112,3 @@ a, a:hover {
 
 
 
-}
